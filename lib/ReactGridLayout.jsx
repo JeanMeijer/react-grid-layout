@@ -1,6 +1,7 @@
 // @flow
 import * as React from "react";
 
+import isEqual from "lodash.isequal";
 import { deepEqual } from "fast-equals";
 import clsx from "clsx";
 import {
