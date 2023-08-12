@@ -549,7 +549,7 @@ export default class ReactGridLayout extends React.Component<Props, State> {
         x={activeDrag.x}
         y={activeDrag.y}
         i={activeDrag.i}
-        className={classNames("react-grid-placeholder", {
+        className={clsx("react-grid-placeholder", {
           "placeholder-resizing": Boolean(this.state.resizing)
         })}
         containerWidth={width}
